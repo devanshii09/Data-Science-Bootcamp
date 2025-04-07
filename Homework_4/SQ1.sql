@@ -1,0 +1,3 @@
+SELECT COUNT(DISTINCT Order_id) AS total_orders
+FROM SALES
+WHERE Date = '2023-03-18';
